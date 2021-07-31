@@ -1,0 +1,46 @@
+{
+  "name": "mcstatusbot",
+  "version": "1.0.0",
+  "description": "A simple Discord.js bot that pings Minecraft servers using the \"mc-ping-updated\" node module.",
+  "main": "mcbot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Iniquit/mcstatusbot.git"
+  },
+  "keywords": [
+    "minecraft",
+    "discord",
+    "discord.js",
+    "discord-bot",
+    "minecraft-server",
+    "ping",
+    "node-js"
+  ],
+  "author": "Iniquit",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Iniquit/mcstatusbot/issues"
+  },
+  "homepage": "https://github.com/Iniquit/mcstatusbot#readme",
+  "dependencies": {
+    "@discordjs/opus": "github:discordjs/opus",
+    "@discordjs/uws": "^10.149.0",
+    "chalk": "^2.4.2",
+    "discord-blackhole.logger": "^1.1.6",
+    "discord-ytdl-core": "^5.0.3",
+    "discord.js": "^12.5.3",
+    "ffmpeg-static": "^4.3.0",
+    "markdown-escape": "^1.1.0",
+    "mc-ping-updated": "^0.1.1",
+    "mkdirp-sync": "0.0.3",
+    "node-fetch": "^2.6.1",
+    "opus": "0.0.0",
+    "opusscript": "0.0.8",
+    "owofy": "^1.0.2",
+    "say": "^0.16.0",
+    "ytdl-core": "^4.8.3"
+  }
+}
