@@ -3,6 +3,7 @@
   "botName": "uwu bot",
   "developerIDS": ["707065188070981642", "732554138801405953"],
   "commandPrefix": "-",
+  "pingInterval": 5,
   "embedColor": "E99AF1",
   "status": "prefix - | uwu bot",
   "statusType": 1,
