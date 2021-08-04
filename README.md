@@ -2,7 +2,7 @@
 Discord bot I have been developing to learn more about js and discord.js
 
 **You will need**
-- A PC
+- A PC or a vps with linux knowledge
 - [Discord bot application](https://discordjs.guide/preparations/setting-up-a-bot-application.html)
 - [npm/node](https://nodejs.org/en/)
 
