@@ -8,4 +8,4 @@ Discord bot I have been developing to learn more about js and discord.js
 
 **Installation**\
 Installing is simple. Download this repository as a ZIP file and open it. Then open a new command window and `cd` to the zip folder (make sure it's extracted).
-Once complete, type `npm i`in the root directory. Then simply do `node main.js`. You are finished and your bot has started!
+Once complete, type `npm i` in the root directory. Then simply do `node main.js`. You are finished and your bot has started!
