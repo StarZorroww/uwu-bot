@@ -8,7 +8,7 @@ exports.info = {
 	example: "rock",
 	description: "Play rock paper scissors with the bot.",
 	allowed: "",
-    aliases: ["rockpaperscissors", "scissorspaperrock"],
+    aliases: ["rockpaperscissors", "scissorspaperrock", "spr"],
 	category: "Fun"
 }
 

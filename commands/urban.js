@@ -14,15 +14,6 @@ exports.info = {
 }
 
 exports.run = async (settings, client, message, args) => {
-    if (!message.author.bot) {
-		if (message.member && !message.member.hasPermission("ADMINISTRATOR")) {
-			if (message.author.id != 732554138801405953) {
-				message.channel.send("you're not starzorrow, fuck off retard")
-				return;
-			}
-		}
-	}
-
     var n = message.author.username;
 	var a = message.author.avatarURL();
 

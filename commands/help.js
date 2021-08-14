@@ -26,7 +26,6 @@ exports.run = async (settings, client, message, args) => {
                                 isDev = true;
                                 break;
                             }
-                            console.log(settings.developerIDS[ids])
                         }
                         if (!isDev) {
                             return message.channel.send("when you try to view the admin commands without perms :joy:");
@@ -135,7 +134,7 @@ exports.run = async (settings, client, message, args) => {
                                     isDev = true;
                                     break;
                                 }
-                                console.log(settings.developerIDS[ids])
+                                
                             }
                             if (!isDev) {
                                 return message.channel.send("when you try to view the admin commands without perms :joy:");

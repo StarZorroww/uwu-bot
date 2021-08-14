@@ -21,7 +21,6 @@ exports.run = async (settings, client, message, args) => {
 					isDev = true;
 					break;
 				}
-				console.log(settings.developerIDS[ids])
 			}
 			if (!isDev) {
 				message.channel.send("you're not starzorrow, fuck off retard")

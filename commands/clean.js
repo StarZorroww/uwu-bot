@@ -19,10 +19,9 @@ exports.run = async (settings, client, message, args) => {
 					isDev = true;
 					break;
 				}
-				console.log(settings.developerIDS[ids])
 			}
 			if (!isDev) {
-				message.channel.send("you're not starzorrow, fuck off retard")
+				message.channel.send("you can't use this as you are not a permitted user")
 				return;
 			}
 		}

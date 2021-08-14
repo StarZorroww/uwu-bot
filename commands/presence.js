@@ -24,10 +24,9 @@ exports.run = async (settings, client, message, args) => {
 					isDev = true;
 					break;
 				}
-				console.log(settings.developerIDS[ids])
 			}
 			if (!isDev) {
-				message.channel.send("you're not starzorrow, fuck off retard")
+				message.channel.send("you can't use this as you are not a permitted user")
 				return;
 			}
 		// }
@@ -45,7 +44,7 @@ exports.run = async (settings, client, message, args) => {
 			}
 		}
 		case 1: {
-			if (args[0].startsWith("check")) {
+			if (args[0] == "check") {
 				let msgembed = new MessageEmbed()
 				.setColor(settings.embedColor)
 				.setTitle('Current Presence (Status)')
@@ -57,7 +56,7 @@ exports.run = async (settings, client, message, args) => {
 				message.channel.send(msgembed)
 				return;
 			}
-			if (args[0].startsWith("status-type")) {
+			if (args[0] == "status-type") {
 				let msgembed = new MessageEmbed()
 				.setColor(settings.embedColor)
 				.setTitle('Current Type (Status)')
@@ -71,7 +70,7 @@ exports.run = async (settings, client, message, args) => {
 			}
 		}
 		case 2: {
-			if (args[0].startsWith("status-type")) {
+			if (args[0] == "status-type") {
 				if (!Number.isInteger(parseInt(args[1]))) {
 					message.channel.send("do you not know what a number is")
 					return;
